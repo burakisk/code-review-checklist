@@ -19,6 +19,11 @@
 - [ ] **Optimization**: Identify and optimize any bottlenecks in the code
 - [ ] **Resource Management**: Ensure efficient use of resources like memory, CPU, etc.
 
+## Security
+- [ ] **Input Validation and Sanitization**: Ensure all user inputs and external data are properly validated and sanitized to prevent attacks (e.g., SQL injection, command injection)
+- [ ] **Sensitive Data Handling**: Verify that sensitive information (e.g., passwords, API keys, personal data) is securely stored and transmitted by using encryption
+- [ ] ***CORS and Headers**: Ensure proper CORS settings and secure HTTP headers (e.g., Content Security Policy, X-Frame-Options)
+
 ## Testing
 - [ ] **Unit Tests**: Verify that adequate unit tests are written
 - [ ] **Integration Tests**: Ensure integration tests are in place where necessary
@@ -28,15 +33,22 @@
 - [ ] **Merge Conflicts**: Ensure the branch has no unresolved merge conflicts
 - [ ] **Continuous Integration**: Confirm that the code passes all CI/CD pipeline checks
 
+## Documentation
+- [ ] **README and Guidelines**: Ensure that there is a comprehensive README or equivalent documentation for the project/module
+- [ ] **Outdated Information**: Ensure there are no outdated or inaccurate comments or documentation
+
+
 ## Example Checklist
 
 ### General Guidelines
 - [ ] Does code follow the project's coding standards and style guide?
+- [ ] Can the implementation be simplified?
 - [ ] Is code well-commented and documented?
 - [ ] Are commit messages are clear and descriptive?
+- [ ] Is the code modular and reusable?
 
 ### Code Quality
-- [ ] Is code is readable and maintainable?
+- [ ] Is code readable and maintainable?
 - [ ] Does code include redundant or unused block?
 - [ ] Are all functionalities tested and verified?
 - [ ] Does the code adhere to SOLID, YAGNI, KISS, and DRY principles?
@@ -50,6 +62,10 @@
 - [ ] Does new codes decrease the performance?
 - [ ] Is efficient resource management ensured?
 
+### Security
+- [ ] Is user input properly validated and sanitized?
+- [ ] Is sensitive information (e.g., API keys, passwords) securely handled? 
+
 ### Testing
 - [ ] Are adequate unit tests written?
 - [ ] Are necessary integration tests in place?
@@ -59,3 +75,7 @@
 ### Code Integration
 - [ ] Are there unresolved merge conflicts?
 - [ ] Does the code pass CI/CD pipeline checks?
+
+### Documentation
+- [ ] Is there a comprehensive README or equivalent documentation for the project/module?
+- [ ] Are there any outdated or inaccurate comments or documentation?
