@@ -51,7 +51,8 @@
 - [ ] Is code readable and maintainable?
 - [ ] Does code include redundant or unused block?
 - [ ] Are all functionalities tested and verified?
-- [ ] Does the code adhere to SOLID, YAGNI, KISS, and DRY principles?
+- [ ] Does the code adhere to SOLID, YAGNI, KISS, Dependency Injection, and DRY principles?
+- [ ] Is there any commented-out code?
 
 ### Best Practices
 - [ ] Are appropriate design patterns used?
@@ -63,10 +64,11 @@
 - [ ] Is efficient resource management ensured?
 
 ### Security
-- [ ] Is user input properly validated and sanitized?
+- [ ] Is user input or external APIs data properly validated and sanitized?
 - [ ] Is sensitive information (e.g., API keys, passwords) securely handled? 
 
 ### Testing
+- [ ] Is code testable?
 - [ ] Are adequate unit tests written?
 - [ ] Are necessary integration tests in place?
 - [ ] Does the test coverage meet the project's standards?
