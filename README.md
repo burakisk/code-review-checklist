@@ -22,7 +22,7 @@
 ## Security
 - [ ] **Input Validation and Sanitization**: Ensure all user inputs and external data are properly validated and sanitized to prevent attacks (e.g., SQL injection, command injection)
 - [ ] **Sensitive Data Handling**: Verify that sensitive information (e.g., passwords, API keys, personal data) is securely stored and transmitted by using encryption
-- [ ] ***CORS and Headers**: Ensure proper CORS settings and secure HTTP headers (e.g., Content Security Policy, X-Frame-Options)
+- [ ] **CORS and Headers**: Ensure proper CORS settings and secure HTTP headers (e.g., Content Security Policy, X-Frame-Options)
 
 ## Testing
 - [ ] **Unit Tests**: Verify that adequate unit tests are written
